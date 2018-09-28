@@ -1,4 +1,4 @@
-package com.cermati.demo;
+package com.cermati.demo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,3 +10,4 @@ public class HelloController {
         return "Greetings from Spring Boot!";
     }
 }
+
