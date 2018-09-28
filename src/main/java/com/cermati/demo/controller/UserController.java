@@ -3,7 +3,6 @@ package com.cermati.demo.controller;
 
 import com.cermati.demo.model.User;
 import com.cermati.demo.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +13,7 @@ import javax.validation.Valid;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/users-old")
 public class UserController {
     UserService userService;
 
